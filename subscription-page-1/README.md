@@ -27,27 +27,6 @@ Click the button below to download the Figma design file:
 
 [<kbd>Download</kbd>](./subscription-page.fig)
 
-
-## Installation and Usage
-
-To integrate this subscription page into your project using Mosaicra UI, follow these steps:
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/your-repo/mosaicra-ui-subscription-page.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd mosaicra-ui-subscription-page
-    ```
-
-3. Import the necessary components from the `mosaicra-ui` library into your project and adjust as needed.
-
-4. Customize the design elements and add your content.
-
 ## Contributing
 
 Contributions are welcome! If you'd like to improve the UI or add new features, feel free to submit a pull request.
