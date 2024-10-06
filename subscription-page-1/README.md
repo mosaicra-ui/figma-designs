@@ -1,6 +1,6 @@
 # Subscription Page UI - Mosaicra UI
 
-This repository contains a beautifully designed **Subscription Page UI** for the **Mosaicra UI** library. The design is clean, modern, and built with user experience in mind, offering an ideal interface for subscription-based services.
+A beautifully designed **Subscription Page UI** for the **Mosaicra UI** library. The design is clean, modern, and built with user experience in mind, offering an ideal interface for subscription-based services.
 
 ## Preview
 
@@ -8,8 +8,8 @@ Here are the screenshots of the subscription page:
 
 <div align="center">
 
-![Subscription Page 2](./img/subscription-page-2.png)
 ![Subscription Page 3](./img/subscription-page.png)
+![Subscription Page 2](./img/subscription-page-2.png)
 ![Subscription Page 1](./img/subscription-page-1.png)
 
 </div>
@@ -58,4 +58,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ---
 
-<div align="center">Designed By [Gautam Koji](https://github.com/gautamankoji)</div>
+<div align="center">Designed By <a href="https://github.com/gautamankoji" target="_blank">gautamankoji</a></div>
