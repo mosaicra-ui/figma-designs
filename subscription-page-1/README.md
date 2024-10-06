@@ -1,0 +1,61 @@
+# Subscription Page UI - Mosaicra UI
+
+This repository contains a beautifully designed **Subscription Page UI** for the **Mosaicra UI** library. The design is clean, modern, and built with user experience in mind, offering an ideal interface for subscription-based services.
+
+## Preview
+
+Here are the screenshots of the subscription page:
+
+<div align="center">
+
+![Subscription Page 2](./img/subscription-page-2.png)
+![Subscription Page 3](./img/subscription-page.png)
+![Subscription Page 1](./img/subscription-page-1.png)
+
+</div>
+
+## Features
+
+- **Responsive Design**: The page adapts seamlessly to various screen sizes, providing a consistent user experience across all devices.
+- **Modern Aesthetic**: Minimalist and sleek design elements are used to create a professional look.
+- **Customizable Layout**: Easily modify colors, fonts, and layout according to your project's needs.
+- **User-Friendly Interface**: Designed to offer an intuitive user experience, making it easy for visitors to subscribe.
+  
+## Download
+
+Click the button below to download the Figma design file:
+
+[<kbd>Download</kbd>](./subscription-page.fig)
+
+
+## Installation and Usage
+
+To integrate this subscription page into your project using Mosaicra UI, follow these steps:
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-repo/mosaicra-ui-subscription-page.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd mosaicra-ui-subscription-page
+    ```
+
+3. Import the necessary components from the `mosaicra-ui` library into your project and adjust as needed.
+
+4. Customize the design elements and add your content.
+
+## Contributing
+
+Contributions are welcome! If you'd like to improve the UI or add new features, feel free to submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+---
+
+<div align="center">Designed By [Gautam Koji](https://github.com/gautamankoji)</div>
