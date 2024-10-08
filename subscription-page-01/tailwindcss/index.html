@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .stroke-white {
+            -webkit-text-stroke: 1px rgba(255, 255, 255, 1);
+            /* Adjust the width and color as needed */
+        }
+
+        .asap-500 {
+            font-family: "Asap", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+    </style>
+
+</head>
+
+<body class="p-0 m-0 box-border">
+    <main class="flex items-center justify-center bg-black text-white min-h-screen">
+        <!-- other border -->
+        <div class="relative w-full h-full p-0.5 mx-60 rounded-[0.9rem] bg-gradient-to-b from-[#161616] to-[#0a0a0a]">
+            <div class="flex items-center justify-center w-full h-full p-[0.1rem] bg-[#0a0a0a] rounded-xl">
+                <div class="relative w-full h-full p-0.5 rounded-[0.8rem] bg-gradient-to-b from-[#161616] to-[#101010]">
+
+                    <!-- header navigation -->
+                    <div class="w-full h-full px-20 bg-[#101010] rounded-t-xl border-b-2 border-[#191919]">
+                        <div>
+                            <div class="flex items-center justify-between">
+                                <div class=""> </div>
+                                <div class="flex gap-32 p-4">
+                                    <div class="flex flex-col items-center">
+                                        <div class="text-[#7f7f7f] text-xs font-medium">Step 1</div>
+                                        <div class="text-sm">Basic info</div>
+                                    </div>
+                                    <div class="flex flex-col items-center">
+                                        <div class="text-[#7f7f7f] text-xs font-medium">Step 2</div>
+                                        <div class="text-sm">Profile Photo</div>
+                                    </div>
+                                    <div class="flex flex-col items-center">
+                                        <div class="text-[#7f7f7f] text-xs font-medium">Step 3</div>
+                                        <div class="text-sm">Subscription plan</div>
+                                    </div>
+                                    <div class="flex flex-col items-center">
+                                        <div class="text-[#7f7f7f] text-xs font-medium">Step 4</div>
+                                        <div class="text-sm">Confirmation</div>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="relative p-[0.05rem] rounded  bg-gradient-to-b from-[#3c3c3c] to-[#2e2e2e] hover:from-[#2e2e2e] hover:to-[#3c3c3c] transition-colors duration-300 ease-in-out hover:cursor-pointer">
+                                    <div
+                                        class="flex items-center justify-center w-full h-full p-2 bg-[#212121] text-xs rounded">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 -960 960 960"
+                                            width="14px" fill="#e8eaed">
+                                            <path
+                                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- progress tracker -->
+                        <div
+                            class="flex items-center justify-end mx-4 mt-1 -mb-[3px] relative bg-[#404040] h-1 rounded w-[43rem]">
+                            <div class="absolute left-[11.3rem] bg-[#404040] rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#101010">
+                                    <path
+                                        d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                                </svg>
+                            </div>
+                            <div class="absolute left-[23.6rem] bg-[#404040] rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960"
+                                    width="18px" fill="#101010">
+                                    <path
+                                        d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                                </svg>
+                            </div>
+                            <div class="bg-[#ff612f] h-1 w-40 rounded-full"></div>
+                        </div>
+                    </div>
+
+                    <!-- subscription card section -->
+                    <div class="w-full h-full px-20 py-10 bg-[#101010] rounded-b-xl">
+                        <div>
+                            <!-- subscription text section -->
+                            <div class="relative">
+                                <div class="text-2xl">Select subscription plan</div>
+                                <div class="text-[#929292] w-[25rem] text-sm my-2">Choose a plan that suits your needs
+                                    and dive into a seamless, enhanced user
+                                    journry.
+                                </div>
+                                <div
+                                    class="absolute right-0 bottom-0 rounded-[4px] p-1 pr-2 -pl-1 bg-[#2b2b2b] text-xs w-fit">
+                                    <div class="flex gap-2 items-center justify-between">
+                                        <div class="bg-[#101010] rounded-[3px] py-1 px-2 shadow-inner">Monthly</div>
+                                        <div>Yearly</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- subscription cards section -->
+                        <div class="mt-8 flex gap-4 items-center justify-between">
+
+                            <!-- subscription card 1 -->
+                            <div class="">
+                                <div
+                                    class="relative w-fit p-0.5 rounded-[1.1rem] bg-gradient-to-b from-[#242424] to-[#242424] overflow-clip">
+                                    <div
+                                        class="flex-col items-center justify-center w-80 h-[30rem] p-[0.1rem] bg-[#151515] rounded-[1.1rem]">
+                                        <!-- top blur effect -->
+                                        <div class="relative select-none">
+                                            <div
+                                                class="absolute translate-x-1/2 -translate-y-1/2 bg-[#7DC3FF] blur-[65px] w-40 h-40 rounded-full">
+                                            </div>
+
+                                            <div class="relative ">
+                                                <div
+                                                    class="mix-blend-overlay absolute -top-6 -right-10 text-8xl text-white/10 font-black tracking-wider stroke-white asap-500">
+                                                    LITE
+                                                </div>
+                                                <div
+                                                    class="blur-[10px] mix-blend-overlay absolute -top-6 -right-10 text-8xl text-white/25 font-black tracking-wider stroke-white asap-500">
+                                                    LITE
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- card body -->
+                                        <div class="relative h-[80%] mt-10">
+                                            <!-- card icon  -->
+                                            <div
+                                                class="-mt-2 ml-6 flex items-center justify-center bg-[#51C2FF] shadow-inner w-12 h-12 rounded-full asap-500 tracking-wider text-sm">
+                                                LITE
+                                            </div>
+
+                                            <!-- card section -->
+                                            <div class="absolute z-10 px-6 w-full">
+                                                <div class="text-lg my-2">Turquoise Trek</div>
+                                                <div class="text-[#989898] text-xs ">
+                                                    <div>Seamless Web 3.0 integration.</div>
+                                                    <div>Enhanced privacy. Decentralized apps.</div>
+                                                </div>
+                                                <div class="my-4 flex gap-2 text-2xl items-end">&#8377; 1,200 <div
+                                                        class="text-[#555555] text-base">/month</div>
+                                                </div>
+                                                <div
+                                                    class="bg-gradient-to-b from-[#2A2A2A] to-[#232323] rounded-md w-full my-6 py-2.5 shadow-inner text-sm text-center font-medium transition-all duration-500 ease-in-out hover:bg-[length:200%] hover:from-[#FF794F] hover:to-[#FF511B] hover:cursor-pointer">
+                                                    Choose this plan</div>
+
+
+                                                <div class="space-y-2 my-5">
+                                                    <div class="flex gap-1 text-xs text-[#989898]">
+                                                        <div class="text-white">2 free seats</div> available
+                                                    </div>
+                                                    <div class="flex gap-1 text-xs text-[#989898]">
+                                                        <div class="text-white">250MB</div> of cloud storage
+                                                    </div>
+                                                </div>
+                                                <!-- divider -->
+                                                <div class="bg-[#252525] w-full h-0.5 rounded"></div>
+                                                <div class="space-y-2 my-5">
+                                                    <div class="text-xs text-[#989898]">Seamless integration</div>
+                                                    <div class="text-xs text-[#989898]">Enhanced privacy</div>
+                                                    <div class="text-xs text-[#989898]">Decentralized applications</div>
+                                                </div>
+                                            </div>
+                                            <div class="absolute bg-[#151515] h-full w-full blur-[20px]" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- subscription card 2 -->
+                        <div class="">
+                            <div
+                                class="relative w-fit p-0.5 rounded-[1.1rem] bg-gradient-to-b from-[#242424] to-[#242424] overflow-clip">
+                                <div
+                                    class="flex-col items-center justify-center w-80 h-[30rem] p-[0.1rem] bg-[#151515] rounded-[1.1rem]">
+                                    <!-- top blur effect -->
+                                    <div class="relative select-none">
+                                        <div
+                                            class="absolute translate-x-1/2 -translate-y-1/2 bg-[#8051FF] blur-[65px] w-40 h-40 rounded-full">
+                                        </div>
+
+                                        <div class="relative ">
+                                            <div
+                                                class="mix-blend-overlay absolute -top-6 -right-10 text-8xl text-white/10 font-black tracking-wider stroke-white asap-500">
+                                                PRO
+                                            </div>
+                                            <div
+                                                class="blur-[10px] mix-blend-overlay absolute -top-6 -right-10 text-8xl text-white/25 font-black tracking-wider stroke-white asap-500">
+                                                PRO
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- card body -->
+                                    <div class="relative h-[80%] mt-10">
+                                        <!-- card icon  -->
+                                        <div
+                                            class="-mt-2 ml-6 flex items-center justify-center bg-[#8051FF] shadow-inner w-12 h-12 rounded-full asap-500 tracking-wider text-sm">
+                                            PRO
+                                        </div>
+
+                                        <!-- card section -->
+                                        <div class="absolute z-10 px-6 w-full">
+                                            <div class="text-lg my-2">Purple Lift</div>
+                                            <div class="text-[#989898] text-xs ">
+                                                <div>Supercharged crypto tools. Personalized</div>
+                                                <div>guidance. Market insights.</div>
+                                            </div>
+                                            <div class="my-4 flex gap-2 text-2xl items-end">&#8377; 6,500 <div
+                                                    class="text-[#555555] text-base">/month</div>
+                                            </div>
+                                            <div
+                                                class="bg-gradient-to-b rounded-md w-full my-6 py-2.5 shadow-inner text-sm text-center font-medium transition-all duration-500 ease-in-out hover:bg-[length:200%] from-[#FF794F] to-[#FF511B] hover:cursor-pointer">
+                                                Choose this plan</div>
+
+
+                                            <div class="space-y-2 my-5">
+                                                <div class="flex gap-1 text-xs text-[#989898]">
+                                                    <div class="text-white">4 free seats</div> available
+                                                </div>
+                                                <div class="flex gap-1 text-xs text-[#989898]">
+                                                    <div class="text-white">1GB</div> of cloud storage
+                                                </div>
+                                            </div>
+                                            <!-- divider -->
+                                            <div class="bg-[#252525] w-full h-0.5 rounded"></div>
+                                            <div class="space-y-2 my-5">
+                                                <div class="text-xs text-[#989898] flex gap-2">Supercharged tools <div
+                                                        class="bg-[#242328] border border-[#3B3A42] text-[#767F8C] -mt-1 p-[2px] px-[4px] rounded">
+                                                        AI-based</div>
+                                                </div>
+                                                <div class="text-xs text-[#989898]">Personalized guidance</div>
+                                                <div class="text-xs text-[#989898]">Market insights</div>
+                                            </div>
+                                        </div>
+                                        <div class="absolute bg-[#151515] h-full w-full blur-[20px]" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- subscription card 3 -->
+                    <div class="">
+                        <div
+                            class="relative w-fit p-0.5 rounded-[1.1rem] bg-gradient-to-b from-[#242424] to-[#242424] overflow-clip">
+                            <div
+                                class="flex-col items-center justify-center w-80 h-[30rem] p-[0.1rem] bg-[#151515] rounded-[1.1rem]">
+                                <!-- top blur effect -->
+                                <div class="relative select-none">
+                                    <div
+                                        class="absolute translate-x-1/2 -translate-y-1/2 bg-[#51FF51] blur-[65px] w-40 h-40 rounded-full">
+                                    </div>
+
+                                    <div class="relative ">
+                                        <div
+                                            class="mix-blend-overlay absolute -top-6 -right-10 text-8xl text-white/10 font-black tracking-wider stroke-white asap-500">
+                                            SUPER
+                                        </div>
+                                        <div
+                                            class="blur-[10px] mix-blend-overlay absolute -top-6 -right-10 text-8xl text-white/25 font-black tracking-wider stroke-white asap-500">
+                                            SUPER
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- card body -->
+                                <div class="relative h-[80%] mt-10">
+                                    <!-- card icon  -->
+                                    <div
+                                        class="-mt-2 ml-6 flex items-center justify-center bg-[#51FF51] shadow-inner w-12 h-12 rounded-full asap-500 tracking-wider text-sm">
+                                        SUPER
+                                    </div>
+
+                                    <!-- card section -->
+                                    <div class="absolute z-10 px-6 w-full">
+                                        <div class="text-lg my-2">Golden Vault</div>
+                                        <div class="text-[#989898] text-xs ">
+                                            <div>Premium Web3 tools. Advanced security.</div>
+                                            <div>Unlimited resources.</div>
+                                        </div>
+                                        <div class="my-4 flex gap-2 text-2xl items-end">Contact us
+                                        </div>
+                                        <div
+                                            class="bg-gradient-to-b from-[#2A2A2A] to-[#232323] rounded-md w-full my-6 py-2.5 shadow-inner text-sm text-center font-medium transition-all duration-500 ease-in-out hover:bg-[length:200%] hover:from-[#232323] hover:to-[#2A2A2A] hover:cursor-pointer">
+                                            Contact us</div>
+
+
+                                        <div class="space-y-2 my-5">
+                                            <div class="flex gap-1 text-xs text-[#989898]">
+                                                <div class="text-white">Unlimited</div> seats available
+                                            </div>
+                                            <div class="flex gap-1 text-xs text-[#989898]">
+                                                <div class="text-white">1TB+</div> of cloud storage
+                                            </div>
+                                        </div>
+                                        <!-- divider -->
+                                        <div class="bg-[#252525] w-full h-0.5 rounded"></div>
+                                        <div class="space-y-2 my-5">
+                                            <div class="text-xs text-[#989898]">Own your data</div>
+                                            <div class="text-xs text-[#989898]">Censorship-resistant</div>
+                                            <div class="text-xs text-[#989898]">Decentralized social media</div>
+                                        </div>
+                                    </div>
+                                    <div class="absolute bg-[#151515] h-full w-full blur-[20px]" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
