@@ -19,6 +19,13 @@ This Figma design system includes a wide array of pre-designed components, such 
 11. **Loaders** – Spinners, progress bars, and skeleton screens.
 12. **Layouts** – Grid systems, flexbox layouts, and containers.
 
+## 🔗 **Available Previews**
+
+Check out the live previews of our **Subscription Page Design** created using different technologies:
+
+- **HTML, CSS, and JavaScript Preview**: [Subscription Page 01](https://mosaicra-ui.github.io/figma-designs/subscription-page-01/html-css-js/index.html)
+- **TailwindCSS Preview**: [Subscription Page 01](https://mosaicra-ui.github.io/figma-designs/subscription-page-01/tailwindcss/index.html)
+
 ---
 
 ## 📥 **Getting Started**
